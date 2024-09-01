@@ -24,4 +24,14 @@ public class LibraryTest {
         assertFalse(library.isBookAvailable("123456789"));
     }
 
+    @Test
+    public void testReturnBook() {
+        Library library = new Library();
+        Book book = new Book("123456789", "Java Programming", "John Doe", 2023);
+        library.addBook(book);
+        library.borrowBook("123456789");
+        library.returnBook(book);
+        assertTrue(library.isBookAvailable("123456789"));
+    }
+
 }
