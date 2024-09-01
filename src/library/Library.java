@@ -13,4 +13,14 @@ public class Library {
     public boolean isBookAvailable(String isbn) {
         return books.containsKey(isbn);
     }
+
+    public boolean borrowBook(String isbn) {
+        if (isBookAvailable(isbn)) {
+            books.remove(isbn);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }
