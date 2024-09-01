@@ -80,9 +80,9 @@ This project uses JUnit 5 for testing. Follow the instructions below to run the 
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (**git checkout -b feature-branch**).
-3. Make your changes and commit them (**git commit -m 'Add new feature'**).
-4. Push to the branch (**git push origin feature-branch**).
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
 
 ## License
