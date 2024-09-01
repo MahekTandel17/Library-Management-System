@@ -69,21 +69,21 @@ You can run the main class directly from your IDE or using the command line.
 This project uses JUnit 5 for testing. Follow the instructions below to run the tests.
 
 **Running Tests in IntelliJ IDEA**
-Navigate to the LibraryTest.java file located in the test package.
-Right-click on the file and select Run 'LibraryTest' to run all tests.
+-Navigate to the LibraryTest.java file located in the test package.
+-Right-click on the file and select Run 'LibraryTest' to run all tests.
 **Running Tests from the Command Line**
-If using Maven, you can run all tests with:
-`mvn test`
-If not using Maven, ensure your classpath includes the JUnit 5 library, and run the tests manually.
+-If using Maven, you can run all tests with:
+-`mvn test`
+-If not using Maven, ensure your classpath includes the JUnit 5 library, and run the tests manually.
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
 
-1.Fork the repository.
-2.Create a new branch (**git checkout -b feature-branch**).
-3.Make your changes and commit them (**git commit -m 'Add new feature'**).
-4.Push to the branch (**git push origin feature-branch**).
-5.Create a new Pull Request.
+-1.Fork the repository.
+-2.Create a new branch (**git checkout -b feature-branch**).
+-3.Make your changes and commit them (**git commit -m 'Add new feature'**).
+-4.Push to the branch (**git push origin feature-branch**).
+-5.Create a new Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
