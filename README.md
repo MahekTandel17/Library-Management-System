@@ -46,44 +46,44 @@ To run this project, you will need:
     Launch IntelliJ IDEA.
     Open the LibraryManagementSystem project directory.
    
-4. **Ensure JUnit 5 is set up:**
+3. **Ensure JUnit 5 is set up:**
    
-  If you are using Maven, JUnit 5 dependencies are already included in the pom.xml.
-  If not using Maven, ensure JUnit 5 is added to your project manually.
+     If you are using Maven, JUnit 5 dependencies are already included in the pom.xml.
+     If not using Maven, ensure JUnit 5 is added to your project manually.
 
 ## Running the Project
 You can run the main class directly from your IDE or using the command line.
 
-**Running from IntelliJ IDEA**
+1. **Running from IntelliJ IDEA**
 1.Open the Library class.
 2.Right-click and select Run 'Library.main()'.
 
-**Running from Command Line**
-1.Navigate to the project directory.
-2.Compile the project:
+2. **Running from Command Line**
+   Navigate to the project directory.
+   Compile the project:
     `javac -d bin src/library/*.java`
-3.Run the main class:
+   Run the main class:
     `java -cp bin library.Library`
 
 ## Testing
 This project uses JUnit 5 for testing. Follow the instructions below to run the tests.
 
-**Running Tests in IntelliJ IDEA**
--Navigate to the LibraryTest.java file located in the test package.
--Right-click on the file and select Run 'LibraryTest' to run all tests.
-**Running Tests from the Command Line**
--If using Maven, you can run all tests with:
--`mvn test`
--If not using Maven, ensure your classpath includes the JUnit 5 library, and run the tests manually.
+1. **Running Tests in IntelliJ IDEA**
+   Navigate to the LibraryTest.java file located in the test package.
+   Right-click on the file and select Run 'LibraryTest' to run all tests.
+2. **Running Tests from the Command Line**
+   If using Maven, you can run all tests with:
+   `mvn test`
+   If not using Maven, ensure your classpath includes the JUnit 5 library, and run the tests manually.
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
 
--1.Fork the repository.
--2.Create a new branch (**git checkout -b feature-branch**).
--3.Make your changes and commit them (**git commit -m 'Add new feature'**).
--4.Push to the branch (**git push origin feature-branch**).
--5.Create a new Pull Request.
+1. Fork the repository.
+2. Create a new branch (**git checkout -b feature-branch**).
+3. Make your changes and commit them (**git commit -m 'Add new feature'**).
+4. Push to the branch (**git push origin feature-branch**).
+5. Create a new Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
