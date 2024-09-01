@@ -88,15 +88,7 @@ Contributions are welcome! Please follow these steps:
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Key Points:
 
-- **Project Overview**: Provides a brief introduction to what the project is about.
-- **Features**: Lists the functionalities available in the system.
-- **Getting Started**: Guides users on how to set up the project.
-- **Running the Project**: Explains how to execute the project both in an IDE and via the command line.
-- **Testing**: Describes how to run the tests.
-- **Contributing**: Provides a guideline on how to contribute to the project.
-- **License**: Indicates the licensing for the project.
 
 
 
